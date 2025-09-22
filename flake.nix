@@ -22,7 +22,7 @@
 
       };
       packages.${system}.voicetime = stdenv.mkDerivation (finalAttrs: {
-        pname = "voicetimer";
+        pname = "voicetime";
         version = "0.1";
 
         src = ./.;
